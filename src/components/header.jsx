@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="flex w-full text-white justify-center  z-50 relative  ">
       <h1 className=" text-9xl font-bold  p-5 float-left w-[50%] text-start flex justify-end items-end  ">
-        Hello I am Rachid
+        Hello  <br /> I am Rachid
 
         
       </h1>

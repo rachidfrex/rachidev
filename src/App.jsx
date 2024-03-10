@@ -6,13 +6,17 @@ function App() {
 
   return (
     <>
-     <div className=' bg-black/90 nanum flex flex-col h-screen ' >
+     <div className=' bg-black/90 nanum flex flex-col h-screen relative ' >
         <Nav />
         <div
         className='flex flex-row justify-between items-center    w-full h-full '
         >
-        <Assid />
-        <Header />
+      
+      <Assid  />
+      
+       <div className=''>
+       <Header />
+       </div>
        
         </div>
      </div>
